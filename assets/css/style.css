@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+html, body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #1E90FF;
+}
+
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) ;
+}
+
+.img-sidebar{
+    text-align: center;
+}
+.img-sidebar img{
+    width: 80%;
+    border: 8px solid #5F84A2;
+    border-radius: 50%;
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 19px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    padding: 0 3%;
+}
+
+section.descricao{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.desc-conhecimento{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.objetivo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2{
+    color:#343a40;
+    font-size: 70px;
+}
+
+section.desc-conhecimento h2{
+    color:#343a40;
+    font-size: 40px;
+}
+
+section.objetivo h2{
+    color:#343a40;
+    font-size: 40px;
+}
+
+section.descricao h2 > span{
+    color: #1E90FF;
+}
+
+section.descricao h3{
+    color: #6c757d;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+section.descricao p{
+    color: #6c757d;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+section.desc-conhecimento ul{
+    color: #6c757d;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.icons-social{
+    margin-top: 100px;
+}
+
+.icons-social a{
+    padding: 10px;
+}
+
+div.p-objetivo{
+    width: 80%;
+    padding-top: 30px;
+}
