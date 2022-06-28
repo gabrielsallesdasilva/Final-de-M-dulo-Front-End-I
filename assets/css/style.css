@@ -103,6 +103,11 @@ section.descricao h2 > span{
     color: #1E90FF;
 }
 
+section.descricao h3 a{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
 section.descricao h3{
     color: #6c757d;
     font-size: 20px;
@@ -115,12 +120,20 @@ section.descricao p{
     margin-top: 40px;
 }
 
-section.desc-conhecimento ul{
+section.desc-conhecimento ol{
+    color: #6c757d;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+section.objetivo ul{
     color: #6c757d;
     font-size: 25px;
     margin-top: 40px;
     margin-left: 30px;
 }
+
 
 .icons-social{
     margin-top: 100px;
@@ -128,9 +141,4 @@ section.desc-conhecimento ul{
 
 .icons-social a{
     padding: 10px;
-}
-
-div.p-objetivo{
-    width: 80%;
-    padding-top: 30px;
 }
